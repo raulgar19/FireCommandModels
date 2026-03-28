@@ -9,6 +9,7 @@ namespace FireCommandModels.Repositories.Interfaces
         Task<List<EquipmentStatus>> GetEquipmentStatusesAsync();
         Task<List<EquipmentType>> GetEquipmentTypesAsync();
         Task<List<Station>> GetStationsAsync();
+        Task<Equipment> FindEquipmentAsync(int id);
         Task AddEquipmentAsync(Equipment equipment);
         Task UpdateEquipmentAsync(Equipment equipment);
         Task DeleteEquipmentAsync(Equipment equipment);
