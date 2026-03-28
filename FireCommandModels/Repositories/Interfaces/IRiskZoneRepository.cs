@@ -9,6 +9,6 @@ namespace FireCommandModels.Repositories.Interfaces
         Task<List<Station>> GetStationsAsync();
         Task<RiskZone> FindRiskZoneAsync(int id);
         Task AddRiskZoneAsync(RiskZone riskZone);
-        Task DeleteRiskZoneAsync(int id);
+        Task DeleteRiskZoneAsync(RiskZone riskZone);
     }
 }
