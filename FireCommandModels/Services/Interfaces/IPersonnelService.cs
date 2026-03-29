@@ -1,6 +1,6 @@
 using FireCommandModels.Models;
 
-namespace FireCommandApi.Services.Interfaces
+namespace FireCommandModels.Services.Interfaces
 {
     public interface IPersonnelService
     {
