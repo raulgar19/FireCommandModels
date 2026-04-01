@@ -7,9 +7,6 @@ namespace FireCommandModels.Services.Interfaces
     {
         Task<IncidentViewModel> GetIncidentsInfoAsync();
         Task<AnalysisViewModel> GetAnalysisAsync();
-        Task<List<Incident>> GetIncidentsAsync();
-        Task<List<Priority>> GetPrioritiesAsync();
-        Task<List<IncidentType>> GetIncidentTypesAsync();
         Task AddIncidentAsync(Incident incident);
         Task UpdateIncidentAsync(Incident incident);
         Task DeleteIncidentAsync(int id);
