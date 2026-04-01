@@ -1,6 +1,6 @@
 using FireCommandModels.Models.ViewModels;
 
-namespace FireCommandModels.Services.Interfaces
+namespace FireCommandApi.Services.Interfaces
 {
     public interface IDashboardService
     {

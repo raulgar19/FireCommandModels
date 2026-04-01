@@ -1,11 +1,11 @@
 using FireCommandModels.Models;
+using FireCommandModels.Models.ViewModels;
 
-namespace FireCommandModels.Services.Interfaces
+namespace FireCommandApi.Services.Interfaces
 {
     public interface IRiskZoneService
     {
-        Task<List<RiskZone>> GetRiskZonesAsync();
-
+        Task<RiskZoneViewModel> GetRiskZonesInfoAsync();
         Task AddRiskZoneAsync(RiskZone riskZone);
         Task DeleteRiskZoneAsync(int id);
     }

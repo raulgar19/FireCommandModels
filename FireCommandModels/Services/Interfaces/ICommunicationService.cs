@@ -1,11 +1,11 @@
 using FireCommandModels.Models;
 using FireCommandModels.Models.ViewModels;
 
-namespace FireCommandModels.Services.Interfaces
+namespace FireCommandApi.Services.Interfaces
 {
     public interface ICommunicationService
     {
-        Task<CommunicationViewModel> GetCommunicationsAsync();
+        Task<CommunicationViewModel> GetCommunicationsInfoAsync();
         Task AddMessageAsync(Message message);
     }
 }

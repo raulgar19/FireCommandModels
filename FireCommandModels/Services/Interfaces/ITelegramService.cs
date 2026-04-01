@@ -1,4 +1,4 @@
-namespace FireCommandModels.Services.Interfaces
+namespace FireCommandApi.Services.Interfaces
 {
     public interface ITelegramService
     {

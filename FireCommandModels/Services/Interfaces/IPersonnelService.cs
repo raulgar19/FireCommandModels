@@ -1,11 +1,11 @@
 using FireCommandModels.Models;
+using FireCommandModels.Models.ViewModels;
 
-namespace FireCommandModels.Services.Interfaces
+namespace FireCommandApi.Services.Interfaces
 {
     public interface IPersonnelService
     {
-        Task<List<Personnel>> GetPersonnelAsync();
-
+        Task<PersonnelViewModel> GetPersonnelInfoAsync();
         Task AddPersonnelAsync(Personnel personnel);
         Task UpdatePersonnelAsync(Personnel personnel);
         Task DeletePersonnelAsync(int id);
