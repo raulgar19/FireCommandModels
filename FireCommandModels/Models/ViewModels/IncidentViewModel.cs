@@ -1,5 +1,3 @@
-﻿using FireCommandModels.Models;
-
 namespace FireCommandModels.Models.ViewModels
 {
     public class IncidentViewModel

@@ -1,6 +1,6 @@
 using FireCommandModels.Models;
 
-namespace FireCommandApi.Repositories.Interfaces
+namespace FireCommandModels.Repositories.Interfaces
 {
     public interface IIncidentRepository
     {

@@ -1,5 +1,3 @@
-﻿using FireCommandModels.Models;
-
 namespace FireCommandModels.Models.ViewModels
 {
     public class RiskZoneViewModel
@@ -7,5 +5,6 @@ namespace FireCommandModels.Models.ViewModels
         public List<RiskZone> RiskZones { get; set; }
         public List<Priority> Priorioties { get; set; }
         public List<RiskType> RiskTypes { get; set; }
+        public List<Station> Stations { get; set; }
     }
 }
